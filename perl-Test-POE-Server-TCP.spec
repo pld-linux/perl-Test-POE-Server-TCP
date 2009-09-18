@@ -8,13 +8,13 @@
 Summary:	Test::POE::Server::TCP - A POE Component providing TCP server services for test cases
 #Summary(pl.UTF-8):	
 Name:		perl-Test-POE-Server-TCP
-Version:	0.12
+Version:	1.08
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	862c7d7bb01fcf34561facad81d27cfb
+# Source0-md5:	44876ddb2fb1bfd4d3ed0b523aba9cef
 # generic URL, check or change before uncommenting
 #URL:		http://search.cpan.org/dist/Test-POE-Server-TCP/
 BuildRequires:	perl-devel >= 1:5.8.0
