@@ -1,12 +1,11 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Test
 %define	pnam	POE-Server-TCP
+%include	/usr/lib/rpm/macros.perl
 Summary:	Test::POE::Server::TCP - A POE Component providing TCP server services for test cases
-#Summary(pl.UTF-8):	
 Name:		perl-Test-POE-Server-TCP
 Version:	1.16
 Release:	1
@@ -15,8 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ac6b0c3d4609583e56b7ec21e428eb64
-# generic URL, check or change before uncommenting
-#URL:		http://search.cpan.org/dist/Test-POE-Server-TCP/
+URL:		http://search.cpan.org/dist/Test-POE-Server-TCP/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -35,9 +33,6 @@ related to client connects, disconnects, input and flushed output.
 Each of these events will refer to a unique client ID which may be
 used in communication with the component when sending data to the
 client or disconnecting a client connection.
-
-# %description -l pl.UTF-8
-# TODO
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
