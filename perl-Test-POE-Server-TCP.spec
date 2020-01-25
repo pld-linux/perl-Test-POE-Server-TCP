@@ -4,7 +4,6 @@
 
 %define	pdir	Test
 %define	pnam	POE-Server-TCP
-%include	/usr/lib/rpm/macros.perl
 Summary:	Test::POE::Server::TCP - A POE Component providing TCP server services for test cases
 Name:		perl-Test-POE-Server-TCP
 Version:	1.16
