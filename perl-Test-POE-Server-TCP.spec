@@ -7,7 +7,7 @@
 Summary:	Test::POE::Server::TCP - A POE Component providing TCP server services for test cases
 Name:		perl-Test-POE-Server-TCP
 Version:	1.16
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
